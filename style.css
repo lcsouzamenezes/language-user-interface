@@ -11,8 +11,21 @@
   padding: 5%;
 }
 
+.my-well {
+  background: whitesmoke;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+input {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 #messageLog {
-  /*margin: 20%;*/
+/*   margin: 20%; */
   white-space: pre-wrap; /* to preserve spaces and newlines */
 }
 
@@ -60,12 +73,52 @@
 
 body {
   background: lightblue; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(right top, lightblue, white); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom left, lightblue, white); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom left, lightblue, white); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom left, lightblue, white); /* Standard syntax */
+  background: -webkit-linear-gradient(right, lightblue, white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, lightblue, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, lightblue, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, lightblue, white); /* Standard syntax */
 }
 
 input {
   text-align: center;
+}
+
+#fillertext {
+  font-size:xx-large;
+  text-align:center;
+  color: goldenrod;
+}
+
+#textShape {
+  background: grey;
+  border-radius: 5px;
+  margin: 10px;
+  display: none; /* hide without taking up space */
+}
+
+#textLine {
+  fill: none;
+  stroke: black;
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+svg {
+  background: lightblue;
+  border-radius: 100px;
+}
+
+polyline {
+  fill: none;
+  stroke: whitesmoke;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+#gofullpage {
+  background: yellow;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
