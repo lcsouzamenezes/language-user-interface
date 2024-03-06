@@ -27,6 +27,7 @@ input {
 #messageLog {
 /*   margin: 20%; */
   white-space: pre-wrap; /* to preserve spaces and newlines */
+  max-width: 640px;
 }
 
 #log-LUI, #log-user, #log-LUI-suggestion {
